@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,4 +10,7 @@ int main() {
 	else if (a < 0 and a % 2 != 0) cout << "this is a negative odd number";//Проверяем условие и выводим результат
 	if (a > 0 and a % 2 == 0) cout << "this is a positive even number";//Проверяем условие и выводим результат
 	else if (a > 0 and a % 2 != 0) cout << "this is a positive odd number";//Проверяем условие и выводим результат
+	if (a == 0) {
+		cout << "null number";
+	}
 }
