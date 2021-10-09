@@ -1,125 +1,125 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	int a;
-//	cout << "Ââåäèòå öåëî ÷èñëî îò 100 äî 999:" << endl;
-//	cin >> a;
-//	switch (a / 100) {
-//	case 1:
-//		cout << "ñòî ";
-//		break;
-//	case 2:
-//		cout << "äâåñòè ";
-//		break;
-//	case 3:
-//		cout << "òðèñòà ";
-//		break;
-//	case 4:
-//		cout << "÷åòûðåñòà ";
-//		break;
-//	case 5:
-//		cout << "ïÿòüñîò ";
-//		break;
-//	case 6:
-//		cout << "øåñòüñîò ";
-//		break;
-//	case 7:
-//		cout << "ñåìüñîò ";
-//		break;
-//	case 8:
-//		cout << "âîñåìüñîò ";
-//		break;
-//	case 9:
-//		cout << "äåâÿòüñîò ";
-//		break;
-//	}
-//	switch (a / 10 % 10) {
-//	case 2:
-//		cout << "äâàäöàòü ";
-//		break;
-//	case 3:
-//		cout << "òðèäöàòü ";
-//		break;
-//	case 4:
-//		cout << "ñîðîê ";
-//		break;
-//	case 5:
-//		cout << "ïÿòüäåñÿò ";
-//		break;
-//	case 6:
-//		cout << "øåñòüäåñÿò ";
-//		break;
-//	case 7:
-//		cout << "ñåìüäåñÿò ";
-//		break;
-//	case 8:
-//		cout << "âîñåìüäåñÿò ";
-//		break;
-//	case 9:
-//		cout << "äåâÿíîñòî ";
-//		break;
-//	}
-//	switch (a % 10) {
-//	case 1:
-//		cout << "îäèí";
-//		break;
-//	case 2:
-//		cout << "äâà";
-//		break;
-//	case 3:
-//		cout << "òðè";
-//		break;
-//	case 4:
-//		cout << "÷åòûðå";
-//		break;
-//	case 5:
-//		cout << "ïÿòü";
-//		break;
-//	case 6:
-//		cout << "øåñòü";
-//		break;
-//	case 7:
-//		cout << "ñåìü";
-//		break;
-//	case 8:
-//		cout << "âîñåìü";
-//		break;
-//	case 9:
-//		cout << "äåâÿòü";
-//		break;
-//	}
-//	if (a / 10 % 10 == 1) {
-//		switch (a % 100) {
-//		case 11:
-//			cout << "îäèííàäöàòü";
-//			break;
-//		case 12:
-//			cout << "äâåíàäöàòü";
-//			break;
-//		case 13:
-//			cout << "òðèíàäöàòü";
-//			break;
-//		case 14:
-//			cout << "÷åòûðíàäöàòü";
-//			break;
-//		case 15:
-//			cout << "ïÿòíàäöàòü";
-//			break;
-//		case 16:
-//			cout << "øåñòíàäöàòü";
-//			break;
-//		case 17:
-//			cout << "ñåìíàäöàòü";
-//			break;
-//		case 18:
-//			cout << "âîñåìíàäöàòü";
-//			break;
-//		case 19:
-//			cout << "äåâÿòíàäöàòü";
-//			break;
-//		}
-//	}
-//}
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	int a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾ Ñ‡Ð¸ÑÐ»Ð¾ Ð¾Ñ‚ 100 Ð´Ð¾ 999:" << endl;
+	cin >> a;
+	switch (a / 100) {
+	case 1:
+		cout << "ÑÑ‚Ð¾ ";
+		break;
+	case 2:
+		cout << "Ð´Ð²ÐµÑÑ‚Ð¸ ";
+		break;
+	case 3:
+		cout << "Ñ‚Ñ€Ð¸ÑÑ‚Ð° ";
+		break;
+	case 4:
+		cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€ÐµÑÑ‚Ð° ";
+		break;
+	case 5:
+		cout << "Ð¿ÑÑ‚ÑŒÑÐ¾Ñ‚ ";
+		break;
+	case 6:
+		cout << "ÑˆÐµÑÑ‚ÑŒÑÐ¾Ñ‚ ";
+		break;
+	case 7:
+		cout << "ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ";
+		break;
+	case 8:
+		cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÑÐ¾Ñ‚ ";
+		break;
+	case 9:
+		cout << "Ð´ÐµÐ²ÑÑ‚ÑŒÑÐ¾Ñ‚ ";
+		break;
+	}
+	switch (a / 10 % 10) {
+	case 2:
+		cout << "Ð´Ð²Ð°Ð´Ñ†Ð°Ñ‚ÑŒ ";
+		break;
+	case 3:
+		cout << "Ñ‚Ñ€Ð¸Ð´Ñ†Ð°Ñ‚ÑŒ ";
+		break;
+	case 4:
+		cout << "ÑÐ¾Ñ€Ð¾Ðº ";
+		break;
+	case 5:
+		cout << "Ð¿ÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ";
+		break;
+	case 6:
+		cout << "ÑˆÐµÑÑ‚ÑŒÐ´ÐµÑÑÑ‚ ";
+		break;
+	case 7:
+		cout << "ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ";
+		break;
+	case 8:
+		cout << "Ð²Ð¾ÑÐµÐ¼ÑŒÐ´ÐµÑÑÑ‚ ";
+		break;
+	case 9:
+		cout << "Ð´ÐµÐ²ÑÐ½Ð¾ÑÑ‚Ð¾ ";
+		break;
+	}
+	switch (a % 10) {
+	case 1:
+		cout << "Ð¾Ð´Ð¸Ð½";
+		break;
+	case 2:
+		cout << "Ð´Ð²Ð°";
+		break;
+	case 3:
+		cout << "Ñ‚Ñ€Ð¸";
+		break;
+	case 4:
+		cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ";
+		break;
+	case 5:
+		cout << "Ð¿ÑÑ‚ÑŒ";
+		break;
+	case 6:
+		cout << "ÑˆÐµÑÑ‚ÑŒ";
+		break;
+	case 7:
+		cout << "ÑÐµÐ¼ÑŒ";
+		break;
+	case 8:
+		cout << "Ð²Ð¾ÑÐµÐ¼ÑŒ";
+		break;
+	case 9:
+		cout << "Ð´ÐµÐ²ÑÑ‚ÑŒ";
+		break;
+	}
+	if (a / 10 % 10 == 1) {
+		switch (a % 100) {
+		case 11:
+			cout << "Ð¾Ð´Ð¸Ð½Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 12:
+			cout << "Ð´Ð²ÐµÐ½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 13:
+			cout << "Ñ‚Ñ€Ð¸Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 14:
+			cout << "Ñ‡ÐµÑ‚Ñ‹Ñ€Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 15:
+			cout << "Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 16:
+			cout << "ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 17:
+			cout << "ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 18:
+			cout << "Ð²Ð¾ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		case 19:
+			cout << "Ð´ÐµÐ²ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÑŒ";
+			break;
+		}
+	}
+}
