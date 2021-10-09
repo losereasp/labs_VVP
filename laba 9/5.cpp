@@ -5,69 +5,69 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int n;
-    cout << "Ââåäèòå íîìåð ãîäà:";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð³Ð¾Ð´Ð°:";
     cin >> n;
-    cout << "Ýòî ãîä ";
+    cout << "Ð­Ñ‚Ð¾ Ð³Ð¾Ð´ ";
 
     switch (n % 10) {
     case 0:
     case 1:
-        cout << "áåë";
+        cout << "Ð±ÐµÐ»";
         break;
     case 2:
     case 3:
-        cout << "÷åðí";
+        cout << "Ñ‡ÐµÑ€Ð½";
         break;
     case 4:
     case 5:
-        cout << "çåë¸í";
+        cout << "Ð·ÐµÐ»Ñ‘Ð½";
         break;
     case 6:
     case 7:
-        cout << "êðàñí";
+        cout << "ÐºÑ€Ð°ÑÐ½";
         break;
     case 8:
     case 9:
-        cout << "æ¸ëò";
+        cout << "Ð¶Ñ‘Ð»Ñ‚";
         break;
     }
 
     switch (n % 12) {
     case 0:
-        cout << "îé îáåçüíû\n";
+        cout << "Ð¾Ð¹ Ð¾Ð±ÐµÐ·ÑŒÐ½Ñ‹\n";
         break;
     case 1:
-        cout << "îãî ïåòóõà\n";
+        cout << "Ð¾Ð³Ð¾ Ð¿ÐµÑ‚ÑƒÑ…Ð°\n";
         break;
     case 2:
-        cout << "îé ñîáàêè\n";
+        cout << "Ð¾Ð¹ ÑÐ¾Ð±Ð°ÐºÐ¸\n";
         break;
     case 3:
-        cout << "îé ñâèíüè\n";
+        cout << "Ð¾Ð¹ ÑÐ²Ð¸Ð½ÑŒÐ¸\n";
         break;
     case 4:
-        cout << "îé êðûñû\n";
+        cout << "Ð¾Ð¹ ÐºÑ€Ñ‹ÑÑ‹\n";
         break;
     case 5:
-        cout << "îãî áûêà\n";
+        cout << "Ð¾Ð³Ð¾ Ð±Ñ‹ÐºÐ°\n";
         break;
     case 6:
-        cout << "îãî òèãðà\n";
+        cout << "Ð¾Ð³Ð¾ Ñ‚Ð¸Ð³Ñ€Ð°\n";
         break;
     case 7:
-        cout << "îãî êðîëèêà\n";
+        cout << "Ð¾Ð³Ð¾ ÐºÑ€Ð¾Ð»Ð¸ÐºÐ°\n";
         break;
     case 8:
-        cout << "îãî äðàêîíà\n";
+        cout << "Ð¾Ð³Ð¾ Ð´Ñ€Ð°ÐºÐ¾Ð½Ð°\n";
         break;
     case 9:
-        cout << "îé çìåè\n";
+        cout << "Ð¾Ð¹ Ð·Ð¼ÐµÐ¸\n";
         break;
     case 10:
-        cout << "îé ëîøàäè\n";
+        cout << "Ð¾Ð¹ Ð»Ð¾ÑˆÐ°Ð´Ð¸\n";
         break;
     case 11:
-        cout << "îé îâöû\n";
+        cout << "Ð¾Ð¹ Ð¾Ð²Ñ†Ñ‹\n";
         break;
     }
 }
