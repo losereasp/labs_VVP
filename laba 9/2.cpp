@@ -1,61 +1,61 @@
-//#include <iostream>
-//#include <Windows.h>
-//
-//
-//using namespace std;
-//
-//int main() {
-//	SetConsoleCP(1251);
-//	setlocale(LC_ALL, "Russian");
-//	int n;
-//	char c;
-//	cout << "Ââåäèòå èñõîäíîå íàïðàâëåíèå ðîáîòà:" << endl;
-//	cin >> c;
-//	cout << "Ââåäèòå öèôðîâóþ êîìàíäó 0, 1, -1:" << endl;
-//	cin >> n;
-//  cout << "Íàïðàâëåíèå ðîáîòà ïîñëå êîìàíä:" << endl;
-//	if (c == 'ñ' or c == 'Ñ') {
-//		if (n == 0) {
-//			cout << "Ñåâåð";
-//		}
-//		else if (n == 1) {
-//			cout << "Çàïàä";
-//		}
-//		else if (n == -1) {
-//			cout << "Âîñòîê";
-//		}
-//	}
-//	if (c == 'þ' or c == 'Þ') {
-//		if (n == 0) {
-//			cout << "Þã";
-//		}
-//		else if (n == 1) {
-//			cout << "Âîñòîê";
-//		}
-//		else if (n == -1) {
-//			cout << "Çàïàä";
-//		}
-//	}
-//	if (c == 'ç' or c == 'Ç') {
-//		if (n == 0) {
-//			cout << "Çàïàä";
-//		}
-//		else if (n == 1) {
-//			cout << "Þã";
-//		}
-//		else if (n == -1) {
-//			cout << "Ñåâåð";
-//		}
-//	}
-//	if (c == 'â' or c == 'Â') {
-//		if (n == 0) {
-//			cout << "Âîñòîê";
-//		}
-//		else if (n == 1) {
-//			cout << "Ñåâåð";
-//		}
-//		else if (n == -1) {
-//			cout << "Þã";
-//		}
-//	}
-//}
+#include <iostream>
+#include <Windows.h>
+
+
+using namespace std;
+
+int main() {
+	SetConsoleCP(1251);
+	setlocale(LC_ALL, "Russian");
+	int n;
+	char c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸ÑÑ…Ð¾Ð´Ð½Ð¾Ðµ Ð½Ð°Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ñ€Ð¾Ð±Ð¾Ñ‚Ð°:" << endl;
+	cin >> c;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†Ð¸Ñ„Ñ€Ð¾Ð²ÑƒÑŽ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñƒ 0, 1, -1:" << endl;
+	cin >> n;
+  cout << "ÐÐ°Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ñ€Ð¾Ð±Ð¾Ñ‚Ð° Ð¿Ð¾ÑÐ»Ðµ ÐºÐ¾Ð¼Ð°Ð½Ð´:" << endl;
+	if (c == 'Ñ' or c == 'Ð¡') {
+		if (n == 0) {
+			cout << "Ð¡ÐµÐ²ÐµÑ€";
+		}
+		else if (n == 1) {
+			cout << "Ð—Ð°Ð¿Ð°Ð´";
+		}
+		else if (n == -1) {
+			cout << "Ð’Ð¾ÑÑ‚Ð¾Ðº";
+		}
+	}
+	if (c == 'ÑŽ' or c == 'Ð®') {
+		if (n == 0) {
+			cout << "Ð®Ð³";
+		}
+		else if (n == 1) {
+			cout << "Ð’Ð¾ÑÑ‚Ð¾Ðº";
+		}
+		else if (n == -1) {
+			cout << "Ð—Ð°Ð¿Ð°Ð´";
+		}
+	}
+	if (c == 'Ð·' or c == 'Ð—') {
+		if (n == 0) {
+			cout << "Ð—Ð°Ð¿Ð°Ð´";
+		}
+		else if (n == 1) {
+			cout << "Ð®Ð³";
+		}
+		else if (n == -1) {
+			cout << "Ð¡ÐµÐ²ÐµÑ€";
+		}
+	}
+	if (c == 'Ð²' or c == 'Ð’') {
+		if (n == 0) {
+			cout << "Ð’Ð¾ÑÑ‚Ð¾Ðº";
+		}
+		else if (n == 1) {
+			cout << "Ð¡ÐµÐ²ÐµÑ€";
+		}
+		else if (n == -1) {
+			cout << "Ð®Ð³";
+		}
+	}
+}
