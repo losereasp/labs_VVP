@@ -11,7 +11,7 @@ int Sign(float x) {
 int main() {
 	setlocale(LC_ALL, "rus");
 	float a, b;
-	cout << "Ââåäèòå âåùåñòâåííûå ÷èñëà À è Â:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ‰ÐµÑÑ‚Ð²ÐµÐ½Ð½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð Ð¸ Ð’:" << endl;
 	cin >> a >> b;
 	cout << Sign(a) + Sign(b);
 }
