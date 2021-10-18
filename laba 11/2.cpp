@@ -1,14 +1,14 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	int a, b;
-//	cout << "Ââåäèòå ïîëîæèòåëüíûå ÷èñëà À > B:" << endl;
-//	cin >> a >> b;
-//	while (a - b >= 0) {
-//		a -= b;
-//	}
-//	cout << "Äëèíà íåçàíÿòîé ÷àñòè îòðåçêà À:" << endl << a;
-//}
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	int a, b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð > B:" << endl;
+	cin >> a >> b;
+	while (a - b >= 0) {
+		a -= b;
+	}
+	cout << "Ð”Ð»Ð¸Ð½Ð° Ð½ÐµÐ·Ð°Ð½ÑÑ‚Ð¾Ð¹ Ñ‡Ð°ÑÑ‚Ð¸ Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ° Ð:" << endl << a;
+}
