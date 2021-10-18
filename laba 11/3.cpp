@@ -1,17 +1,17 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	int n, k = 0, res = 0;
-//	cout << "Ââåäèòå öåëîå ÷èñëî N > 1:" << endl;
-//	cin >> n;
-//	while (res < n) {
-//		res += k;
-//		if (res >= n)
-//			break;
-//		else k++;
-//	}
-//	cout << "Íàèìåíüøåå ÷èñëî Ê: " << k << endl << "Ñóììà ÷èñåë: " << res;
-//}
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	int n, k = 0, res = 0;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ N > 1:" << endl;
+	cin >> n;
+	while (res < n) {
+		res += k;
+		if (res >= n)
+			break;
+		else k++;
+	}
+	cout << "ÐÐ°Ð¸Ð¼ÐµÐ½ÑŒÑˆÐµÐµ Ñ‡Ð¸ÑÐ»Ð¾ Ðš: " << k << endl << "Ð¡ÑƒÐ¼Ð¼Ð° Ñ‡Ð¸ÑÐµÐ»: " << res;
+}
