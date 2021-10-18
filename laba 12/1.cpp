@@ -9,11 +9,11 @@ float PowerA3(float a, float b) {
 int main() {
 	setlocale(LC_ALL, "rus");
 	float arr[5];
-	cout << "¬‚Â‰ËÚÂ 5 ˝ÎÂÏÂÌÚÓ‚:" << endl;
+	cout << "–í–≤–µ–¥–∏—Ç–µ 5 —ç–ª–µ–º–µ–Ω—Ç–æ–≤:" << endl;
 	for (int i = 0; i < 5; i++) {
-		cin >> arr[i];//¬‚Ó‰ËÏ Ï‡ÒÒË‚
+		cin >> arr[i];//–í–≤–æ–¥–∏–º –º–∞—Å—Å–∏–≤
 	}
-	cout << "3 ÒÚÂÔÂÌ¸ Í‡Ê‰Ó„Ó ËÁ ˝ÎÂÏÂÌÚÓ‚:" << endl;
+	cout << "3 —Å—Ç–µ–ø–µ–Ω—å –∫–∞–∂–¥–æ–≥–æ –∏–∑ —ç–ª–µ–º–µ–Ω—Ç–æ–≤:" << endl;
 	for (int i = 0; i < 5; i++) {
 		cout << PowerA3(arr[i], arr[i]) << " ";
 	}
