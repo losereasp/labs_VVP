@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "rus");
 	int a, b;
-	cout << "Ââåäèòå öåëûå ïîëîæèòåëüíûå ÷èñëà À < B:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ñ‹Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð < B:" << endl;
 	cin >> a >> b;
 	for (int i = a; i <= b; i++) {
 		for (int j = 1; j <= i; j++) {
