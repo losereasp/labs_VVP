@@ -1,15 +1,15 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	float sum = 1000, k = 0, p, r;
-//	cout << "Ââåäèòå ïðîöåíò âêëàäà:" << endl;
-//	cin >> p;
-//	while (sum <= 1100) {
-//		sum += sum * p / 100;
-//		k++;
-//	}
-//	cout << "×åðåç " << k << " ìåñÿö(à)(åâ) ñóììà íà âêëàäå áóäåò ðàâíà " << sum;
-//}
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	float sum = 1000, k = 0, p, r;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ñ†ÐµÐ½Ñ‚ Ð²ÐºÐ»Ð°Ð´Ð°:" << endl;
+	cin >> p;
+	while (sum <= 1100) {
+		sum += sum * p / 100;
+		k++;
+	}
+	cout << "Ð§ÐµÑ€ÐµÐ· " << k << " Ð¼ÐµÑÑÑ†(Ð°)(ÐµÐ²) ÑÑƒÐ¼Ð¼Ð° Ð½Ð° Ð²ÐºÐ»Ð°Ð´Ðµ Ð±ÑƒÐ´ÐµÑ‚ Ñ€Ð°Ð²Ð½Ð° " << sum;
+}
