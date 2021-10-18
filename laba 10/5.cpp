@@ -1,16 +1,15 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	float a, res = 1;
-//	int n, i = 1;
-//	cout << "Ââåäèòå âåùåñòâåííîå ÷èñëî À è öåëîå ÷èñëî N > 0:" << endl;
-//	cin >> a >> n;
-//	for (int i = 1; i <= n; i++) {
-//		res += pow(-a, i);
-//		//res += pow(a, i + 1);
-//	}
-//	cout << "Ñóììà 1 - À + À^2 - A^3 + ... +- A^N = " << res;
-//}
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	float a, res = 1;
+	int n, i = 1;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã¥Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã® Ã€ Ã¨ Ã¶Ã¥Ã«Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã® N > 0:" << endl;
+	cin >> a >> n;
+	for (int i = 1; i <= n; i++) {
+		res += pow(-a, i);
+	}
+	cout << "Ã‘Ã³Ã¬Ã¬Ã  1 - Ã€ + Ã€^2 - A^3 + ... +- A^N = " << res;
+}
