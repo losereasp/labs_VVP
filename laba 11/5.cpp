@@ -1,20 +1,20 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-////Ôóíêöèÿ ÍÎÄ ïî àëãîðèòìó Åâêëèäà
-//int NOD(int a, int b) {
-//	while (a != b) {
-//		if (a > b) a = a - b;
-//		else b = b - a;
-//	}
-//	return a;
-//}
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");	
-//	int a, b;
-//	cout << "Ââåäèòå öåëûå ïîëîæèòåëüíûå ÷èñëà:" << endl;
-//	cin >> a >> b;
-//	cout << "Èõ íàèáîëüøèé îáùèé äåëèòåëü: " << NOD(a, b);
-//}
+#include <iostream>
+
+using namespace std;
+
+//Ð¤ÑƒÐ½ÐºÑ†Ð¸Ñ ÐÐžÐ” Ð¿Ð¾ Ð°Ð»Ð³Ð¾Ñ€Ð¸Ñ‚Ð¼Ñƒ Ð•Ð²ÐºÐ»Ð¸Ð´Ð°
+int NOD(int a, int b) {
+	while (a != b) {
+		if (a > b) a = a - b;
+		else b = b - a;
+	}
+	return a;
+}
+
+int main() {
+	setlocale(LC_ALL, "rus");	
+	int a, b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ñ‹Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð°:" << endl;
+	cin >> a >> b;
+	cout << "Ð˜Ñ… Ð½Ð°Ð¸Ð±Ð¾Ð»ÑŒÑˆÐ¸Ð¹ Ð¾Ð±Ñ‰Ð¸Ð¹ Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ: " << NOD(a, b);
+}
