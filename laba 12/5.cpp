@@ -18,8 +18,8 @@ float Fact2(int N) {
 int main() {
 	setlocale(LC_ALL, "rus");
 	int n;
-	cout << "Ââåäèòå N > 0:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ N > 0:" << endl;
 	cin >> n;
-	cout << "Äâîéíîé ôàêòîðèàë ýòîãî ÷èñëà:" << endl;
+	cout << "Ð”Ð²Ð¾Ð¹Ð½Ð¾Ð¹ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» ÑÑ‚Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°:" << endl;
 	cout << Fact2(n);
 }
