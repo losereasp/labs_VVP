@@ -1,20 +1,20 @@
-//#include <iostream>
-//#include <vector>
-//
-//using namespace std;
-//
-//int main() {
-//	setlocale(LC_ALL, "rus");
-//	int n;
-//	cout << "Ââåäèòå ðàçìåð ìàññèâà N:" << endl;
-//	cin >> n;
-//	vector <int> a;
-//	for (int i = 1; i <= n; i++) {
-//		a.push_back(i);//Çàêèäûâàåì ÷èñëà â âåêòîð
-//	}
-//	int k = n - 1;//ðàçìåð ìàññèâà - 1 ÷òîáû íå âûéòè çà ïðåäåëû
-//	for (int i = 0; i < a.size() / 2; i++) {
-//		cout << a[i] << " " << a[k] << " ";//Âûâîäèì
-//		k--;
-//	}
-//} 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "rus");
+	int n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð° N:" << endl;
+	cin >> n;
+	vector <int> a;
+	for (int i = 1; i <= n; i++) {
+		a.push_back(i);//Ð—Ð°ÐºÐ¸Ð´Ñ‹Ð²Ð°ÐµÐ¼ Ñ‡Ð¸ÑÐ»Ð° Ð² Ð²ÐµÐºÑ‚Ð¾Ñ€
+	}
+	int k = n - 1;//Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð° - 1 Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ðµ Ð²Ñ‹Ð¹Ñ‚Ð¸ Ð·Ð° Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‹
+	for (int i = 0; i < a.size() / 2; i++) {
+		cout << a[i] << " " << a[k] << " ";//Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ð¼
+		k--;
+	}
+} 
